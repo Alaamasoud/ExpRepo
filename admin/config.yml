@@ -14,4 +14,4 @@ collections:
         fields:
           - label: "Cover Title"
             name: "coverTitle"
-            widget: "string"
+            widget: "string" 
