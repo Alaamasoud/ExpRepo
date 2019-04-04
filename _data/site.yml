@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 banner:
   coverTitle: Jekyll Template
   coverSubTitle: Fuck
   coverTxt: Horea .....
   image: "/assets/images/cover2.jpg"
+=======
+coverTitle: Jekyll Template
+coverSubTitle: Fuck
+coverTxt: Horea .....
+image: /assets/images/cover3.jpg
+>>>>>>> 39cb9142bf6c37916396e04c76c97eaad371de13
