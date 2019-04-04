@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: Alaamasoud/ExpRepo/
+  repo: Alaamasoud/ExpRepo
   
 media_folder: "assets/images"
 
