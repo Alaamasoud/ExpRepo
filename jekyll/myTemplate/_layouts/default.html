@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="EN">
+
+<head>
+    <!--
+    ////////////////////////////////
+    ////////////////////////////////
+    META TAGS 
+    ////////////////////////////////
+    ////////////////////////////////
+    -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="disabled-adaptations" content="watch">
+    <meta name="apple-mobile-web-app-title" content="808CMS">
+    <meta name="msapplication-TileColor" content="#000000">
+    <link rel="icon" type="image/png" href="assets/images/basic/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/images/basic/iphone-image.png">
+    <meta name="msapplication-TileImage" content="assets/images/basic/iphone-image.png">
+    <meta property="og:image" content="assets/images/basic/og-image.png">
+    <meta content="website" property="og:type">
+
+    <!--    DYNAMIC META TAGS-->
+    <!--    GOOGLE VERIFICATION CODE-->
+    <meta name="google-site-verification" content="CODE HERE" />
+    <!--    SITE TITLE-->
+    <meta content="PAGE TITLE HERE" property="og:title">
+    <meta content="SITE TITLE HERE" property="og:site_name">
+    <title>SITE TITLE HERE</title>
+    <!--    SITE DESCRIPTION-->
+    <meta name="description" content="SITE DESCRIPTION HERE">
+    <!--    SITE HOME LINK-->
+    <link rel="canonical" href="SITE LINK HERE">
+    <meta content="SITE LINK HERE" property="og:url">
+    <!--    SITE KEYWORDS    -->
+    <meta name="keywords" content="KEYWORD, KEYWORD, KEYWORD">
+
+    <!--
+    ////////////////////////////////
+    ////////////////////////////////
+    STYLES
+    ////////////////////////////////
+    ////////////////////////////////
+    -->
+
+    <link href="assets/css/mainStyle.css" rel="stylesheet" media="all">
+    <link href="assets/css/slick.css" rel="stylesheet" media="all">
+
+    <!--
+    ////////////////////////////////
+    ////////////////////////////////
+    Scripts
+    ////////////////////////////////
+    ////////////////////////////////
+    -->
+
+
+</head>
+
+<body>
+    <!--
+////////////////////////////////
+Main Containert
+////////////////////////////////
+-->
+    <div class="container">
+     {% include header.html %}
+
+            <!--
+            ////////////////////////////////
+            Desktop Main Tag
+            ////////////////////////////////
+            -->
+
+            <main>
+                <div class="menu-filler"></div>
+                <div class="page-filler"></div>
+                {{content}}
+            </main>
+     {% include footer.html %}
+  
+</body>
+
+</html>
