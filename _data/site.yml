@@ -1,3 +1,5 @@
-coverTitle: Jekyll Template
-coverSubTitle: Fuck
-coverTxt: Horea .....
+banner:
+  coverTitle: Jekyll Template
+  coverSubTitle: Fuck
+  coverTxt: Horea .....
+  image: "/assets/images/cover2.jpg"
