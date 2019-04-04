@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: Alaamasoud/ExpRepo/tree/master/jekyll/myTemplate
+  repo: Alaamasoud/ExpRepo/
   
 media_folder: "assets/images"
 
