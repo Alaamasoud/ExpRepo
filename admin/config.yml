@@ -89,6 +89,26 @@ collections:
                 name: "image"
                 widget: "image" 
                 
+          - label: "SECTION IMAGE LEFT"
+            name: "splitLeft"
+            widget: "object" 
+            fields:
+              - label: "BACKGROUND COLOR"
+                name: "bgColor"
+                widget: "string" 
+              - label: "TITLE"
+                name: "title"
+                widget: "string" 
+              - label: "SUB TITLE"
+                name: "subTitle"
+                widget: "string" 
+              - label: "CONTENT"
+                name: "txt"
+                widget: "string" 
+              - label: "IMAGE"
+                name: "image"
+                widget: "image" 
+                
                 
                 
                 

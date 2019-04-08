@@ -9,8 +9,14 @@ sectioncentered:
   title: Centered Section
   txt: test
 splitRight:
-  bgColor: '3'
+  bgColor: "3"
   image: /assets/images/700.jpg
   subTitle: sub Title centered
-  title: Centered Section
+  title: Split Right
+  txt: test
+splitLeft:
+  bgColor: "1"
+  image: /assets/images/500.jpg
+  subTitle: sub Title centered
+  title: Split Left
   txt: test
