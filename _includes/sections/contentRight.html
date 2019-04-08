@@ -1,0 +1,31 @@
+
+<!--
+////////////////////////////////
+Section Full Image - Content Right
+////////////////////////////////
+-->
+
+<section class="sectionItem image{{site.data.[page.title].contentRight.coverColor}} section-rightContent {{site.data.[page.title].contentRight.coverSize}} column-auto withImage" data-section-title style="background-image: url({{site.data.[page.title].contentRight.image}})">
+    <div class="fallback">
+        <picture>
+            <img width="1000" height="500" src="{{site.data.[page.title].contentRight.image}}">
+        </picture>
+    </div>
+    <div class="mainWidth">
+        <div class="paddingLeft clear">
+            <div class="grid_5 floatRight">
+                <div class="block noMarginBottom">
+                    <div class="header">
+                        <h1 class="headerTag">{{site.data.[page.title].contentRight.title}}</h1>
+                        <h2 class="headerSubTag">{{site.data.[page.title].contentRight.subTitle}}</h2>
+                    </div>
+                    <div class="content">
+                        <p>
+                            {{site.data.[page.title].contentRight.txt}}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

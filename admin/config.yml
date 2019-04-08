@@ -117,6 +117,31 @@ collections:
                 widget: "markdown" 
               - label: "IMAGE"
                 name: "image"
+                widget: "image"  
+                
+          - label: "SECTION CONTENT RIGHT"
+            name: "contentRight"
+            widget: "object" 
+            fields:
+              - label: "TITLE"
+                name: "title"
+                widget: "string" 
+              - label: "SUB TITLE"
+                name: "subTitle"
+                widget: "string" 
+              - label: "CONTENT"
+                name: "txt"
+                widget: "markdown" 
+              - label: "COVER COLOR"
+                name: "coverColor"
+                widget: "select"
+                options: ["Light", "Dark"]
+              - label: "COVER SIZE"
+                name: "coverSize"
+                widget: "select"
+                options: ["small", "medium", "large"]
+              - label: "COVER IMAGE"
+                name: "image"
                 widget: "image" 
                 
                 
