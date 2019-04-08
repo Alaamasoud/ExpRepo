@@ -1,27 +1,40 @@
 banner:
-  coverTitle: This is cover title
-  coverSubTitle: sub Title
-  coverTxt: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  image: /assets/images/achtergrond-2.jpg
-  coverColor: Light
+  coverColor: Dark
   coverSize: large
-  
+  coverSubTitle: sub Title
+  coverTitle: This is cover title
+  coverTxt: >-
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat.
+  image: /assets/images/achtergrond-2.jpg
 sectioncentered:
   button1: Contact us
+  subTitle: sub Title centered
   title: Centered Section
-  subTitle: sub Title centered
-  txt: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  
+  txt: >-
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat.
 splitRight:
-  bgColor: "3"
+  bgColor: '3'
   image: /assets/images/700.jpg
-  title: Split Right
   subTitle: sub Title centered
-  txt: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  
+  title: Split Right
+  txt: >-
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat.
 splitLeft:
-  bgColor: "1"
+  bgColor: '1'
   image: /assets/images/500.jpg
-  title: Split Left
   subTitle: sub Title
-  txt: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  title: Split Left
+  txt: >-
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat.
