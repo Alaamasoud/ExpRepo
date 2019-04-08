@@ -9,7 +9,7 @@ sectioncentered:
   title: Centered Section
   txt: test
 splitRight:
-  bgColor: '2'
+  bgColor: '3'
   image: /assets/images/700.jpg
   subTitle: sub Title centered
   title: Centered Section
