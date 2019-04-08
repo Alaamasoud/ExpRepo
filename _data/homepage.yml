@@ -42,10 +42,20 @@ contentRight:
   coverColor: Light
   coverSize: large
   subTitle: sub Title
-  title: This is cover title
+  title: CONTENT RIGHT SECTION
   txt:
     Lorem ipsum dolor sit amet, **consectetur** adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
     consequat.
-  image: /assets/images/achtergrond-2.jpg
+  image: /assets/images/cover3.jpg
+8-4:
+  bgColor: '2'
+  image: /assets/images/700.jpg
+  subTitle: sub Title
+  title: Section 8-4
+  txt: 
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat.

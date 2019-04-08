@@ -144,6 +144,26 @@ collections:
                 name: "image"
                 widget: "image" 
                 
+          - label: "SECTION 8-4"
+            name: "8-4"
+            widget: "object" 
+            fields:
+              - label: "BACKGROUND COLOR"
+                name: "bgColor"
+                widget: "select"
+                options: ["1", "2", "3"]
+              - label: "TITLE"
+                name: "title"
+                widget: "string" 
+              - label: "SUB TITLE"
+                name: "subTitle"
+                widget: "string" 
+              - label: "CONTENT"
+                name: "txt"
+                widget: "markdown" 
+              - label: "IMAGE"
+                name: "image"
+                widget: "image" 
                 
                 
                 
