@@ -1,18 +1,16 @@
 banner:
-    coverTitle: This is cover title
-    coverSubTitle: sub Title
-    coverTxt: test
-    image: /assets/images/achtergrond-2.jpg
-
+  coverSubTitle: sub Title
+  coverTitle: This is cover title
+  coverTxt: test
+  image: /assets/images/achtergrond-2.jpg
 sectioncentered:
-    title: Centered Section
-    subTitle: sub Title centered
-    txt: test
-    button1: Contact us
-
+  button1: Contact us
+  subTitle: sub Title centered
+  title: Centered Section
+  txt: test
 splitRight:
-    bgColor: 1
-    title: Centered Section
-    subTitle: sub Title centered
-    txt: test
-    image: /assets/images/700.jpg
+  bgColor: '2'
+  image: /assets/images/700.jpg
+  subTitle: sub Title centered
+  title: Centered Section
+  txt: test
