@@ -85,9 +85,9 @@ collections:
               - label: "CONTENT"
                 name: "txt"
                 widget: "string" 
-              - label: "BUTTON"
-                name: "button1"
-                widget: "string" 
+              - label: "IMAGE"
+                name: "image"
+                widget: "image" 
                 
                 
                 
