@@ -51,6 +51,12 @@ collections:
               - label: "COVER IMAGE"
                 name: "image"
                 widget: "image" 
+              - label: "COVER COLOR"
+                name: "coverColor"
+                widget: "string" 
+              - label: "COVER SIZE"
+                name: "coverSize"
+                widget: "string" 
                 
           - label: "SECTION CENTERED"
             name: "sectioncentered"

@@ -1,22 +1,27 @@
 banner:
-  coverSubTitle: sub Title
   coverTitle: This is cover title
-  coverTxt: test
+  coverSubTitle: sub Title
+  coverTxt: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
   image: /assets/images/achtergrond-2.jpg
+  coverColor: light
+  coverSize: large
+  
 sectioncentered:
   button1: Contact us
-  subTitle: sub Title centered
   title: Centered Section
-  txt: test
+  subTitle: sub Title centered
+  txt: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  
 splitRight:
   bgColor: "3"
   image: /assets/images/700.jpg
-  subTitle: sub Title centered
   title: Split Right
-  txt: test
+  subTitle: sub Title centered
+  txt: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  
 splitLeft:
   bgColor: "1"
   image: /assets/images/500.jpg
-  subTitle: sub Title centered
   title: Split Left
-  txt: test
+  subTitle: sub Title
+  txt: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
