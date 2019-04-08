@@ -9,3 +9,10 @@ sectioncentered:
     subTitle: sub Title centered
     txt: test
     button1: Contact us
+
+splitRight:
+    bgColor: 1
+    title: Centered Section
+    subTitle: sub Title centered
+    txt: test
+    image: /assets/images/700.jpg
