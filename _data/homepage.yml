@@ -3,7 +3,7 @@ banner:
   coverSubTitle: sub Title
   coverTxt: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
   image: /assets/images/achtergrond-2.jpg
-  coverColor: light
+  coverColor: Light
   coverSize: large
   
 sectioncentered:
