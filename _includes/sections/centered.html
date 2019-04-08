@@ -14,12 +14,12 @@
                             <div class="grid_9 gridCenter">
                                 <div class="block alignCenter">
                                     <div class="header">
-                                        <h1 class="headerTag">Section Centered</h1>
-                                        <h2 class="headerSubTag">SubHeader</h2>
+                                        <h1 class="headerTag">{{site.data.[page.title].title}}</h1>
+                                        <h2 class="headerSubTag">{{site.data.[page.title].subTitle}}</h2>
                                     </div>
                                     <div class="content">
                                         <p>
-                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                                            {{site.data.[page.title].txt}}
                                         </p>
                                     </div>
                                 </div>
@@ -33,11 +33,7 @@
                                 <div class="sectionButtons">
                                     <a href="#" class="actionButton withSymbol">
                                        <span class="email symbol"></span>
-                                        <span class="text">Email</span>
-                                    </a>
-                                     <a href="https://api.whatsapp.com/send?phone=31612220279" target="_blank" class="actionButton withSymbol">
-                                       <span class="symbol whatsapp"></span>
-                                        <span class="text">Whatsapp</span>
+                                        <span class="text">{{site.data.[page.title].button1}}</span>
                                     </a>
                                 </div>
                             </div>

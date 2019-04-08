@@ -6,11 +6,11 @@
                 <section class="sectionItem sectionColor1 section-cover column-auto" data-section-title="">
                     <ul class="cover">
 
-                        <li class="coverItem imageLight positionBottomLeft large" style="background-image: url({{site.data.homepage.image}});">
+                        <li class="coverItem imageLight positionBottomLeft large" style="background-image: url({{site.data.[page.title].image}});">
 
                             <div class="fallback">
                                 <picture>
-                                    <img src="{{site.data.homepage.image}}" alt="Always Full this" width="2000" height="750">
+                                    <img src="{{site.data.[page.title].image}}" alt="Always Full this" width="2000" height="750">
                                 </picture>
                             </div>
 
@@ -22,7 +22,7 @@
                                 <source src="images/video/werkenbij.mp4" type="video/mp4">
                                 <source src="images/video/werkenbij.webm" type="video/webm">
                             </video>
--->
+--> 
 
                             <div class="coverContent">
                                 <div class="mainWidth">
@@ -30,12 +30,12 @@
                                         <div class="paddingLeft clearFix">
                                             <div class="block">
                                                 <div class="header">
-                                                    <h1 class="headerTag">{{site.data.homepage.coverTitle}}</h1>
-                                                    <h2 class="headerSubTag">{{site.data.homepage.coverSubTitle}}</h2>
+                                                    <h1 class="headerTag">{{site.data.[page.title].coverTitle}}</h1>
+                                                    <h2 class="headerSubTag">{{site.data.[page.title].coverSubTitle}}</h2>
                                                 </div>
                                                 <div class="content">
-                                                    <p>
-                                                        {{site.data.homepage.coverTxt}}
+                                                    <p> 
+                                                        {{site.data.[page.title].coverTxt}}
                                                     </p>
                                                 </div>
                                             </div>

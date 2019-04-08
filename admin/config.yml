@@ -4,11 +4,13 @@ backend:
   
 media_folder: "assets/images"
 
+
 collections:
+    #WEB SITE SETTINGS
   - name: "website-settings"
-    label: "website settings"
+    label: "WEBSITE SETTINGS"
     files:
-      - label: "Website settings"
+      - label: "WEBSITE SETTINGS"
         name: "site"
         file: "_data/site.yml"
         fields:
@@ -25,11 +27,12 @@ collections:
             name: "googleCode"
             widget: "string" 
             
+#    HOMEPAGE        
   - name: "homepage"
     label: "HOME PAGE"
     files:
-      - label: "section cover"
-        name: "site"
+      - label: "SECTION COVER"
+        name: "sectioncover"
         file: "_data/homepage.yml"
         fields:
           - label: "COVER TITLE"
@@ -44,3 +47,19 @@ collections:
           - label: "COVER IMAGE"
             name: "image"
             widget: "image" 
+      - label: "SECTION CENTERED"
+        name: "sectioncentered"
+        file: "_data/homepage.yml"
+        fields:
+          - label: "TITLE"
+            name: "title"
+            widget: "string" 
+          - label: "SUB TITLE"
+            name: "subTitle"
+            widget: "string" 
+          - label: "CONTENT"
+            name: "txt"
+            widget: "string" 
+          - label: "BUTTON"
+            name: "button1"
+            widget: "string" 
