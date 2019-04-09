@@ -1,0 +1,45 @@
+
+<!--
+////////////////////////////////
+Section Centered - Blocks
+////////////////////////////////
+-->
+
+<section class="sectionItem sectionColor2 section-blocks column-auto">
+    <div class="mainWidth">
+        <div class="paddingLeft clear">
+            <div class="grid_9 gridCenter">
+                <div class="block noMargin alignCenter">
+                    <div class="header">
+                        <h1 class="headerTag">Section Centered - Blocks</h1>
+                        <h2 class="headerSubTag">SubHeader</h2>
+                    </div>
+                    <div class="content">
+                        <p>
+                            onbekende drukker een zethaak met letters nam en ze door elkaar husselde om een font-catalogus te maken. Het heeft niet alleen vijf onbekende drukker een zethaak met letters nam en ze door elkaar husselde
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="selectorColorWhite blocks slider four-columns">
+                <ul class="blockEntry">
+                   {% for post in site.posts %}
+                    <li class="item">
+                        <a href="{{ post.url }}" class="block image hoverBlock cssSelectorColor positionimageTop">
+                            <div class="media">
+                                <img src="{{ post.image }}" alt="" width="400" height="225">
+                            </div>
+                            <div class="header">
+                                <h1 class="blockTitle">{{ post.title }}</h1>
+                            </div>
+                            <div class="content">
+                                {{ post.excerpt }}
+                            </div>
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
