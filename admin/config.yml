@@ -168,6 +168,7 @@ collections:
       - label: "SECTION ICONS BLOCKS"
         name: "iconBlocksSection"
         widget: "object"
+        file: "_data/homepage.yml"
         fields:
           - label: "BACKGROUND COLOR"
             name: "bgColor"
