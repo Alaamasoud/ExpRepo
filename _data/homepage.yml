@@ -54,8 +54,14 @@ contentRight:
   image: /assets/images/700.jpg
   subTitle: sub Title
   title: Section 8-4
-  txt: 
+  txt:
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
     consequat.
+iconBlocksSection:
+  bgColor: '2'
+  columnsCount: three
+  imagePosition: Top
+  subTitle: sub Title
+  title: Section Icons Blocks
