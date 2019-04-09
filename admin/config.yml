@@ -166,21 +166,21 @@ collections:
                 widget: "image"
 
 
-    - label: "ICONS BLOCK"
-      name: "iconBlock"
-      folder: "_iconBlocks"
-      creat: true
-      slug: "{{slug}}"
-      fields:
-        - label: "TITLE"
-          name: "title"
-          widget: "string"
-        - label: "ICON"
-          name: "image_path"
-          widget: "image"
-        - label: "CONTENT"
-          name: "txt"
-          widget: "markdown"
+  - label: "ICONS BLOCK"
+    name: "iconBlock"
+    folder: "_iconBlocks"
+    creat: true
+    slug: "{{slug}}"
+    fields:
+      - label: "TITLE"
+        name: "title"
+        widget: "string"
+      - label: "ICON"
+        name: "image_path"
+        widget: "image"
+      - label: "CONTENT"
+        name: "txt"
+        widget: "markdown"
 #
 #  - label: "SECTION ICONS BLOCKS"
 #    name: "iconBlocksSection"
