@@ -33,7 +33,7 @@ splitRight:
   bgColor: '3'
   image: /assets/images/700.jpg
   subTitle: sub Title centered
-  title: Split left
+  title: Split Right
   imagePosition: Left
   txt: >-
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -68,14 +68,3 @@ iconBlocksSection:
   imagePosition: Top
   subTitle: sub Title
   title: Section Icons Blocks
-contentRight:
-  coverColor: Dark
-  coverSize: large
-  subTitle: sub Title
-  title: CONTENT Left SECTION
-  imagePosition: left
-  txt:
-    Lorem ipsum dolor sit amet, **consectetur** adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat.
