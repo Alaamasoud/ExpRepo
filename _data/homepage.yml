@@ -23,18 +23,17 @@ splitRight:
   image: /assets/images/700.jpg
   subTitle: sub Title centered
   title: Split Right
-  imagePosition: Right
   txt: >-
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
     consequat.
-splitRight:
-  bgColor: '3'
-  image: /assets/images/700.jpg
-  subTitle: sub Title centered
-  title: Split Right
-  imagePosition: Left
+splitLeft:
+  bgColor: '1'
+  image: /assets/images/500.jpg
+  subTitle: sub Title
+  title: Split Left
+  imagePosition: right
   txt: >-
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
