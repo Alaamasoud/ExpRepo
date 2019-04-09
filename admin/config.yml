@@ -169,7 +169,7 @@ collections:
   - label: "ICONS BLOCK"
     name: "iconBlock"
     folder: "_iconBlocks"
-    creat: true
+    create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
       - label: "Layout"
