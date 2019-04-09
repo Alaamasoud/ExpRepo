@@ -172,6 +172,10 @@ collections:
     creat: true
     slug: "{{slug}}"
     fields:
+      - label: "Layout"
+        name: "layout"
+        widget: "hidden"
+        default: "default"
       - label: "TITLE"
         name: "title"
         widget: "string"
@@ -181,6 +185,7 @@ collections:
       - label: "CONTENT"
         name: "txt"
         widget: "markdown"
+
 #
 #  - label: "SECTION ICONS BLOCKS"
 #    name: "iconBlocksSection"
