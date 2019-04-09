@@ -16,8 +16,8 @@ sectioncentered:
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
     consequat.
 splitRight:
-  bgColor: '3'
-  image: /assets/images/700.jpg
+  bgColor: '2'
+  image: /assets/images/sectionBlock.jpg
   subTitle: sub Title centered
   title: Split Right
   txt: >-
