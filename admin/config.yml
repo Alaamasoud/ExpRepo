@@ -30,6 +30,7 @@ collections:
 #    HOMEPAGE
   - name: "pages"
     label: "PAGES"
+    files:
       - name: "homepage"
         label: "HOME PAGE"
         files:
