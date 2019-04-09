@@ -187,6 +187,26 @@ collections:
                 name: "columnsCount"
                 widget: "select"
                 options: ["two", "three", "four"]
+              - label: "ICONS BLOCK"
+                name: "iconBlock"
+                widget: "object"
+                folder: "_iconBlocks"
+                create: true
+                slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+                fields:
+                  - label: "Layout"
+                    name: "layout"
+                    widget: "hidden"
+                    default: "default"
+                  - label: "TITLE"
+                    name: "title"
+                    widget: "string"
+                  - label: "ICON"
+                    name: "image_path"
+                    widget: "image"
+                  - label: "CONTENT"
+                    name: "txt"
+                    widget: "markdown"
 
 
   - label: "ICONS BLOCK"
