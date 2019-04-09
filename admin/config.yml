@@ -167,11 +167,11 @@ collections:
 
 
     - label: "ICONS BLOCK"
-    name: "iconBlock"
-    folder: "_iconBlocks"
-    creat: true
-    slug: "{{slug}}"
-    fields:
+      name: "iconBlock"
+      folder: "_iconBlocks"
+      creat: true
+      slug: "{{slug}}"
+      fields:
         - label: "TITLE"
           name: "title"
           widget: "string"
