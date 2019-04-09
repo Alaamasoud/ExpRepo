@@ -182,7 +182,7 @@ collections:
               - label: "IMAGE POSITION"
                 name: "imagePosition"
                 widget: "select"
-                options: ["Top", "Left"
+                options: ["Top", "Left"]
               - label: "COLUMNS COUNT"
                 name: "columnsCount"
                 widget: "select"
