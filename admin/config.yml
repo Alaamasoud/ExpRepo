@@ -165,6 +165,48 @@ collections:
                 name: "image"
                 widget: "image"
 
+          - label: "SECTION ICONS BLOCKS"
+            name: "iconBlocksSection"
+            widget: "object"
+            fields:
+              - label: "BACKGROUND COLOR"
+                name: "bgColor"
+                widget: "select"
+                options: ["1", "2", "3"]
+              - label: "TITLE"
+                name: "title"
+                widget: "string"
+              - label: "SUB TITLE"
+                name: "subTitle"
+                widget: "string"
+              - label: "COLUMNS COUNT"
+                name: "columnsCount"
+                widget: "select"
+                options: ["two", "three", "four"]
+              - label: "IMAGE POSITION"
+                name: "imagePosition"
+                widget: "select"
+                options: ["Top", "Left"]
+              - label: "ICONS BLOCK"
+                name: "iconBlock"
+                folder: "_iconBlocks"
+                creat: true
+                slug: "{{slug}}"
+                fields:
+                    - label: "Layout"
+                    name: "layout"
+                    widget: "hidden"
+                    default: "iconBlock-layout"
+                    - label: "TITLE"
+                    name: "title"
+                    widget: "string"
+                    - label: "ICON"
+                    name: "image_path"
+                    widget: "image"
+                    - label: "CONTENT"
+                    name: "txt"
+                    widget: "markdown"
+
 
 
 

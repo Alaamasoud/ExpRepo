@@ -1,0 +1,36 @@
+
+<section class="sectionItem sectionColor{{site.data.[page.title].iconBlocksSection.bgColor}} section-blocks column-auto">
+    <div class="mainWidth">
+        <div class="paddingLeft clear">
+            <div class="grid_9 gridCenter">
+                <div class="block noMargin alignCenter">
+                    <div class="header">
+                        <h1 class="headerTag">{{site.data.[page.title].iconBlocksSection.title}}</h1>
+                        <h2 class="headerSubTag">{{site.data.[page.title].iconBlocksSection.subTitle}}</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="blocks {{site.data.[page.title].iconBlocksSection.columnsCount}}-columns iconsBlock">
+                <ul class="blockEntry">
+                   {% for iconBlocks in site.iconBlocks %}
+                    <li class="item">
+                        <div href="" class="block image hoverBlock cssSelectorColor positionimage{{site.data.[page.title].iconBlocksSection.imagePosition}}">
+                            <div class="media icons">
+                                <img src="{{iconBlocks.image_path}}" alt="" width="400" height="225">
+                            </div>
+                            <span class="inner">
+                                <div class="header">
+                                    <h1 class="blockTitle">{{iconBlocks.title}}</h1>
+                                </div>
+                                <div class="content">
+                                    {{iconBlocks.txt}}
+                                </div>
+                            </span>
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
