@@ -76,7 +76,7 @@ contentLeft:
 posts:
   bgColor: '1'
   blockColor: '1'
-  columnsCount: two
-  slider: true
+  columnsCount: three
+  slider: false
   subTitle: sub Title
   title: POSTS BLOCKS
