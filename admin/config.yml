@@ -217,6 +217,33 @@ collections:
                 name: "image"
                 widget: "image"
 
+          - label: "SECTION POSTS"
+            name: "posts"
+            widget: "object"
+            fields:
+              - label: "BACKGROUND COLOR"
+                name: "bgColor"
+                widget: "select"
+                options: ["1", "2", "3"]
+              - label: "TITLE"
+                name: "title"
+                widget: "string"
+              - label: "SUB TITLE"
+                name: "subTitle"
+                widget: "string"
+              - label: "BLOCK COLOR"
+                name: "blockColor"
+                widget: "select"
+                options: ["White", "1", "2", "3"]
+              - label: "COLUMNS COUNT"
+                name: "columnsCount"
+                widget: "select"
+                options: ["two", "three", "four"]
+              - label: "ENABLE SLIDER"
+                name: "slider"
+                widget: "boolean"
+                default: false
+
       - label: "ABOUT"
         name: "about"
         file: "_data/about.yml"
