@@ -193,10 +193,6 @@ collections:
                 creat: true
                 slug: "{{slug}}"
                 fields:
-                    - label: "layout"
-                    name: "layout"
-                    widget: "hidden"
-                    default: "post"
                     - label: "TITLE"
                     name: "title"
                     widget: "string"
