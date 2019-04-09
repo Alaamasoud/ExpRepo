@@ -194,14 +194,14 @@ collections:
                 slug: "{{slug}}"
                 fields:
                     - label: "TITLE"
-                    name: "title"
-                    widget: "string"
+                      name: "title"
+                      widget: "string"
                     - label: "ICON"
-                    name: "image_path"
-                    widget: "image"
+                      name: "image_path"
+                      widget: "image"
                     - label: "CONTENT"
-                    name: "txt"
-                    widget: "markdown"
+                      name: "txt"
+                      widget: "markdown"
 
 
 
