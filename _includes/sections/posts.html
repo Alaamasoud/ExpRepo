@@ -4,24 +4,24 @@
 Section Centered - Blocks
 ////////////////////////////////
 -->
-
-<section class="sectionItem sectionColor2 section-blocks column-auto">
+{% assign postsCon = "site.data.[page.title].posts" %}
+<section class="sectionItem sectionColor{{postsCon.bgColor}} section-blocks column-auto">
     <div class="mainWidth">
         <div class="paddingLeft clear">
             <div class="grid_9 gridCenter">
                 <div class="block noMargin alignCenter">
                     <div class="header">
-                        <h1 class="headerTag">Section Centered - Blocks</h1>
-                        <h2 class="headerSubTag">SubHeader</h2>
+                        <h1 class="headerTag">{{postsCon.title}}</h1>
+                        <h2 class="headerSubTag">{{postsCon.subTitle}}</h2>
                     </div>
                     <div class="content">
                         <p>
-                            onbekende drukker een zethaak met letters nam en ze door elkaar husselde om een font-catalogus te maken. Het heeft niet alleen vijf onbekende drukker een zethaak met letters nam en ze door elkaar husselde
+                            {{postsCon.txt}}
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="selectorColorWhite blocks slider four-columns">
+            <div class="selectorColor{{postsCon.blockColor}} blocks {% if postsCon.slider == true %}slider{% endif %} {{postsCon.columnsCount}}-columns">
                 <ul class="blockEntry">
                    {% for post in site.posts %}
                     <li class="item">
