@@ -77,7 +77,7 @@ collections:
                 name: "button1"
                 widget: "string"
 
-          - label: "SECTION IMAGE RIGHT"
+          - label: "SECTION IMAGE HALF"
             name: "splitRight"
             widget: "object"
             fields:

@@ -23,6 +23,7 @@ splitRight:
   image: /assets/images/700.jpg
   subTitle: sub Title centered
   title: Split Right
+  imagePosition: Right
   txt: >-
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
