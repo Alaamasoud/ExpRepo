@@ -85,27 +85,10 @@ collections:
                 name: "bgColor"
                 widget: "select"
                 options: ["1", "2", "3"]
-              - label: "TITLE"
-                name: "title"
-                widget: "string"
-              - label: "SUB TITLE"
-                name: "subTitle"
-                widget: "string"
-              - label: "CONTENT"
-                name: "txt"
-                widget: "markdown"
-              - label: "IMAGE"
-                name: "image"
-                widget: "image"
-
-          - label: "SECTION IMAGE LEFT"
-            name: "splitLeft"
-            widget: "object"
-            fields:
-              - label: "BACKGROUND COLOR"
-                name: "bgColor"
+              - label: "IMAGE POSITION"
+                name: "imagePosition"
                 widget: "select"
-                options: ["1", "2", "3"]
+                options: ["Right", "Left"]
               - label: "TITLE"
                 name: "title"
                 widget: "string"
@@ -119,7 +102,7 @@ collections:
                 name: "image"
                 widget: "image"
 
-          - label: "SECTION CONTENT RIGHT"
+          - label: "SECTION CONTENT"
             name: "contentRight"
             widget: "object"
             fields:
@@ -132,6 +115,10 @@ collections:
               - label: "CONTENT"
                 name: "txt"
                 widget: "markdown"
+              - label: "IMAGE POSITION"
+                name: "imagePosition"
+                widget: "select"
+                options: ["right", "left"]
               - label: "COVER COLOR"
                 name: "coverColor"
                 widget: "select"
