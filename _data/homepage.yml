@@ -58,8 +58,8 @@ contentRight:
     consequat.
 iconBlocksSection:
   bgColor: '2'
-  columnsCount: three
-  imagePosition: Top
+  columnsCount: two
+  imagePosition: Left
   subTitle: sub Title
   title: Section Icons Blocks
 contentLeft:
