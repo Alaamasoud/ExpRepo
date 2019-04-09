@@ -6,8 +6,8 @@
                 <section class="sectionItem sectionColor1 section-cover column-auto" data-section-title="">
                     <ul class="cover">
 
-                        <li class="coverItem image{{site.data.[page.title].banner.coverColor}} positionBottomLeft {{site.data.[page.title].banner.coverSize}}" style="background-image: url({{site.data.[page.title].banner.image}});">
- 
+                        <li class="coverItem image{{site.data.[page.title].banner.coverColor}} positionBottom{{site.data.[page.title].banner.blockPosition}} {{site.data.[page.title].banner.coverSize}}" style="background-image: url({{site.data.[page.title].banner.image}});">
+
                             <div class="fallback">
                                 <picture>
                                     <img src="{{site.data.[page.title].banner.image}}" alt="Always Full this" width="2000" height="750">
@@ -22,7 +22,7 @@
                                 <source src="images/video/werkenbij.mp4" type="video/mp4">
                                 <source src="images/video/werkenbij.webm" type="video/webm">
                             </video>
---> 
+-->
 
                             <div class="coverContent">
                                 <div class="mainWidth">
@@ -34,7 +34,7 @@
                                                     <h2 class="headerSubTag">{{site.data.[page.title].banner.coverSubTitle}}</h2>
                                                 </div>
                                                 <div class="content">
-                                                    <p> 
+                                                    <p>
                                                         {{site.data.[page.title].banner.coverTxt}}
                                                     </p>
                                                 </div>

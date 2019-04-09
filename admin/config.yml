@@ -52,6 +52,10 @@ collections:
                 name: "coverColor"
                 widget: "select"
                 options: ["Light", "Dark"]
+              - label: "BLOCK POSITION"
+                name: "blockPosition"
+                widget: "select"
+                options: ["Left", "Right"]
               - label: "COVER SIZE"
                 name: "coverSize"
                 widget: "select"
