@@ -164,29 +164,29 @@ collections:
               - label: "IMAGE"
                 name: "image"
                 widget: "image"
-                - label: "SECTION ICONS BLOCKS"
-                  name: "iconBlocksSection"
-                  widget: "object"
-                  file: "_data/homepage.yml"
-                  fields:
-                    - label: "BACKGROUND COLOR"
-                      name: "bgColor"
-                      widget: "select"
-                      options: ["1", "2", "3"]
-                    - label: "TITLE"
-                      name: "title"
-                      widget: "string"
-                    - label: "SUB TITLE"
-                      name: "subTitle"
-                      widget: "string"
-                    - label: "COLUMNS COUNT"
-                      name: "columnsCount"
-                      widget: "select"
-                      options: ["two", "three", "four"]
-                    - label: "IMAGE POSITION"
-                      name: "imagePosition"
-                      widget: "select"
-                      options: ["Top", "Left"]
+              - label: "SECTION ICONS BLOCKS"
+                name: "iconBlocksSection"
+                widget: "object"
+                file: "_data/homepage.yml"
+                fields:
+                  - label: "BACKGROUND COLOR"
+                    name: "bgColor"
+                    widget: "select"
+                    options: ["1", "2", "3"]
+                  - label: "TITLE"
+                    name: "title"
+                    widget: "string"
+                  - label: "SUB TITLE"
+                    name: "subTitle"
+                    widget: "string"
+                  - label: "COLUMNS COUNT"
+                    name: "columnsCount"
+                    widget: "select"
+                    options: ["two", "three", "four"]
+                  - label: "IMAGE POSITION"
+                    name: "imagePosition"
+                    widget: "select"
+                    options: ["Top", "Left"]
 
 
   - label: "ICONS BLOCK"
