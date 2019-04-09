@@ -4,24 +4,24 @@
 Section Centered - Blocks
 ////////////////////////////////
 -->
-{% assign postsCon = "site.data.[page.title].posts" %}
-<section class="sectionItem sectionColor{{postsCon.bgColor}} section-blocks column-auto">
+
+<section class="sectionItem sectionColor{{site.data.[page.title].posts.bgColor}} section-blocks column-auto">
     <div class="mainWidth">
         <div class="paddingLeft clear">
             <div class="grid_9 gridCenter">
                 <div class="block noMargin alignCenter">
                     <div class="header">
-                        <h1 class="headerTag">{{postsCon.title}}</h1>
-                        <h2 class="headerSubTag">{{postsCon.subTitle}}</h2>
+                        <h1 class="headerTag">{{site.data.[page.title].posts.title}}</h1>
+                        <h2 class="headerSubTag">{{site.data.[page.title].posts.subTitle}}</h2>
                     </div>
                     <div class="content">
                         <p>
-                            {{postsCon.txt}}
+                            {{site.data.[page.title].posts.txt}}
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="selectorColor{{postsCon.blockColor}} blocks {% if postsCon.slider == true %}slider{% endif %} {{postsCon.columnsCount}}-columns">
+            <div class="selectorColor{{site.data.[page.title].posts.blockColor}} blocks {% if site.data.[page.title].posts.slider == true %}slider{% endif %} {{site.data.[page.title].posts.columnsCount}}-columns">
                 <ul class="blockEntry">
                    {% for post in site.posts %}
                     <li class="item">
