@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: Alaamasoud/ExpRepo
-  
+
 media_folder: "assets/images"
 
 
@@ -16,18 +16,18 @@ collections:
         fields:
           - label: "SITE TITLE"
             name: "title"
-            widget: "string" 
+            widget: "string"
           - label: "SITE DESCRIPTION"
             name: "desc"
-            widget: "string" 
+            widget: "string"
           - label: "SITE KEYWORD"
             name: "keyword"
-            widget: "string" 
+            widget: "string"
           - label: "GOOGLE VERIFICATION CODE"
             name: "googleCode"
-            widget: "string" 
-            
-#    HOMEPAGE        
+            widget: "string"
+
+#    HOMEPAGE
   - name: "homepage"
     label: "HOME PAGE"
     files:
@@ -37,17 +37,17 @@ collections:
         fields:
           - label: "BANNER"
             name: "banner"
-            widget: "object" 
+            widget: "object"
             fields:
               - label: "COVER TITLE"
                 name: "coverTitle"
-                widget: "string" 
+                widget: "string"
               - label: "COVER SUB TITLE"
                 name: "coverSubTitle"
-                widget: "string" 
+                widget: "string"
               - label: "COVER CONTENT"
                 name: "coverTxt"
-                widget: "markdown" 
+                widget: "markdown"
               - label: "COVER COLOR"
                 name: "coverColor"
                 widget: "select"
@@ -58,28 +58,28 @@ collections:
                 options: ["small", "medium", "large"]
               - label: "COVER IMAGE"
                 name: "image"
-                widget: "image" 
-                
+                widget: "image"
+
           - label: "SECTION CENTERED"
             name: "sectioncentered"
-            widget: "object" 
+            widget: "object"
             fields:
               - label: "TITLE"
                 name: "title"
-                widget: "string" 
+                widget: "string"
               - label: "SUB TITLE"
                 name: "subTitle"
-                widget: "string" 
+                widget: "string"
               - label: "CONTENT"
                 name: "txt"
-                widget: "markdown" 
+                widget: "markdown"
               - label: "BUTTON"
                 name: "button1"
-                widget: "string" 
-                
+                widget: "string"
+
           - label: "SECTION IMAGE RIGHT"
             name: "splitRight"
-            widget: "object" 
+            widget: "object"
             fields:
               - label: "BACKGROUND COLOR"
                 name: "bgColor"
@@ -87,20 +87,20 @@ collections:
                 options: ["1", "2", "3"]
               - label: "TITLE"
                 name: "title"
-                widget: "string" 
+                widget: "string"
               - label: "SUB TITLE"
                 name: "subTitle"
-                widget: "string" 
+                widget: "string"
               - label: "CONTENT"
                 name: "txt"
-                widget: "markdown" 
+                widget: "markdown"
               - label: "IMAGE"
                 name: "image"
-                widget: "image" 
-                
+                widget: "image"
+
           - label: "SECTION IMAGE LEFT"
             name: "splitLeft"
-            widget: "object" 
+            widget: "object"
             fields:
               - label: "BACKGROUND COLOR"
                 name: "bgColor"
@@ -108,30 +108,30 @@ collections:
                 options: ["1", "2", "3"]
               - label: "TITLE"
                 name: "title"
-                widget: "string" 
+                widget: "string"
               - label: "SUB TITLE"
                 name: "subTitle"
-                widget: "string" 
+                widget: "string"
               - label: "CONTENT"
                 name: "txt"
-                widget: "markdown" 
+                widget: "markdown"
               - label: "IMAGE"
                 name: "image"
-                widget: "image"  
-                
+                widget: "image"
+
           - label: "SECTION CONTENT RIGHT"
             name: "contentRight"
-            widget: "object" 
+            widget: "object"
             fields:
               - label: "TITLE"
                 name: "title"
-                widget: "string" 
+                widget: "string"
               - label: "SUB TITLE"
                 name: "subTitle"
-                widget: "string" 
+                widget: "string"
               - label: "CONTENT"
                 name: "txt"
-                widget: "markdown" 
+                widget: "markdown"
               - label: "COVER COLOR"
                 name: "coverColor"
                 widget: "select"
@@ -142,11 +142,11 @@ collections:
                 options: ["small", "medium", "large"]
               - label: "COVER IMAGE"
                 name: "image"
-                widget: "image" 
-                
+                widget: "image"
+
           - label: "SECTION 8-4"
             name: "8-4"
-            widget: "object" 
+            widget: "object"
             fields:
               - label: "BACKGROUND COLOR"
                 name: "bgColor"
@@ -154,24 +154,24 @@ collections:
                 options: ["1", "2", "3"]
               - label: "TITLE"
                 name: "title"
-                widget: "string" 
+                widget: "string"
               - label: "SUB TITLE"
                 name: "subTitle"
-                widget: "string" 
+                widget: "string"
               - label: "CONTENT"
                 name: "txt"
-                widget: "markdown" 
+                widget: "markdown"
               - label: "IMAGE"
                 name: "image"
-                widget: "image" 
-                
-                
-                
-                
-                
-                
-                
-#    ABOUTPAGE        
+                widget: "image"
+
+
+
+
+
+
+
+#    ABOUTPAGE
   - name: "about"
     label: "ABOUT PAGE"
     files:
@@ -181,35 +181,34 @@ collections:
         fields:
           - label: "BANNER"
             name: "banner"
-            widget: "object" 
+            widget: "object"
             fields:
               - label: "COVER TITLE"
                 name: "coverTitle"
-                widget: "string" 
+                widget: "string"
               - label: "COVER SUB TITLE"
                 name: "coverSubTitle"
-                widget: "string" 
+                widget: "string"
               - label: "COVER CONTENT"
                 name: "coverTxt"
-                widget: "string" 
+                widget: "string"
               - label: "COVER IMAGE"
                 name: "image"
-                widget: "image" 
-                
+                widget: "image"
+
           - label: "SECTION CENTERED"
             name: "sectioncentered"
-            widget: "object" 
+            widget: "object"
             fields:
               - label: "TITLE"
                 name: "title"
-                widget: "string" 
+                widget: "string"
               - label: "SUB TITLE"
                 name: "subTitle"
-                widget: "string" 
+                widget: "string"
               - label: "CONTENT"
                 name: "txt"
-                widget: "string" 
+                widget: "string"
               - label: "BUTTON"
                 name: "button1"
-                widget: "string" 
-            
+                widget: "string"
