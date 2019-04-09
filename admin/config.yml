@@ -165,8 +165,11 @@ collections:
                 name: "image"
                 widget: "image"
 
-      - label: "SECTION ICONS BLOCKS"
-        name: "iconBlocksSection"
+  - name: "iconBlocksSection"
+    label: "SECTION ICONS BLOCKS"
+    files:
+      - label: "SECTION ICONS BLOCKS EDIT"
+        name: "iconBlocksSectionedit"
         widget: "object"
         file: "_data/homepage.yml"
         fields:
