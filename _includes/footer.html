@@ -3,11 +3,19 @@
                     <div class="paddingBoth clear">
                         <div class="footerContainer">
                             <div class="footerLeft grid_10">
-                                <a href="/" class="mainLogo"></a>
+                                <a href="{{site.url}}" class="mainLogo"></a>
                                 <em>I</em>
                                 <a href="#">Privacyverklaring</a>
                                 <em>I</em>
                                 <a href="#">klachtenregistratie</a>
+                                <em>I</em>
+                                <address>
+                                   {{site.data.site.contact.address}}
+                                </address>
+                                <em>I</em>
+                                <a href="tel:{{site.data.site.contact.tel}}">{{site.data.site.contact.tel}}</a>
+                                <em>I</em>
+                                <a href="mailto:{{site.data.site.contact.email}}">{{site.data.site.contact.email}}</a>
                             </div>
                             <div class="footerRight grid_2">
                                 <a href="{{site.data.site.socialmedia.facebook}}" target="_blank">
