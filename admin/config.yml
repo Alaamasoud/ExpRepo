@@ -4,6 +4,8 @@ backend:
 
 media_folder: "assets/images"
 
+#logo_url: http://808studio.nl/assets/images/basic/sprite.svg
+#site_url: http://localhost:4000
 
 collections:
     #WEB SITE SETTINGS
@@ -42,12 +44,15 @@ collections:
               - label: "COVER TITLE"
                 name: "coverTitle"
                 widget: "string"
+                required: false
               - label: "COVER SUB TITLE"
                 name: "coverSubTitle"
                 widget: "string"
+                required: false
               - label: "COVER CONTENT"
                 name: "coverTxt"
                 widget: "markdown"
+                required: false
               - label: "COVER COLOR"
                 name: "coverColor"
                 widget: "select"
@@ -71,12 +76,15 @@ collections:
               - label: "TITLE"
                 name: "title"
                 widget: "string"
+                required: false
               - label: "SUB TITLE"
                 name: "subTitle"
                 widget: "string"
+                required: false
               - label: "CONTENT"
                 name: "txt"
                 widget: "markdown"
+                required: false
               - label: "BUTTON"
                 name: "button1"
                 widget: "string"
@@ -92,12 +100,15 @@ collections:
               - label: "TITLE"
                 name: "title"
                 widget: "string"
+                required: false
               - label: "SUB TITLE"
                 name: "subTitle"
                 widget: "string"
+                required: false
               - label: "CONTENT"
                 name: "txt"
                 widget: "markdown"
+                required: false
               - label: "IMAGE"
                 name: "image"
                 widget: "image"
@@ -113,12 +124,15 @@ collections:
               - label: "TITLE"
                 name: "title"
                 widget: "string"
+                required: false
               - label: "SUB TITLE"
                 name: "subTitle"
                 widget: "string"
+                required: false
               - label: "CONTENT"
                 name: "txt"
                 widget: "markdown"
+                required: false
               - label: "IMAGE"
                 name: "image"
                 widget: "image"
@@ -130,12 +144,15 @@ collections:
               - label: "TITLE"
                 name: "title"
                 widget: "string"
+                required: false
               - label: "SUB TITLE"
                 name: "subTitle"
                 widget: "string"
+                required: false
               - label: "CONTENT"
                 name: "txt"
                 widget: "markdown"
+                required: false
               - label: "COVER COLOR"
                 name: "coverColor"
                 widget: "select"
@@ -159,12 +176,15 @@ collections:
               - label: "TITLE"
                 name: "title"
                 widget: "string"
+                required: false
               - label: "SUB TITLE"
                 name: "subTitle"
                 widget: "string"
+                required: false
               - label: "CONTENT"
                 name: "txt"
                 widget: "markdown"
+                required: false
               - label: "IMAGE"
                 name: "image"
                 widget: "image"
@@ -180,9 +200,11 @@ collections:
               - label: "TITLE"
                 name: "title"
                 widget: "string"
+                required: false
               - label: "SUB TITLE"
                 name: "subTitle"
                 widget: "string"
+                required: false
               - label: "IMAGE POSITION"
                 name: "imagePosition"
                 widget: "select"
@@ -199,12 +221,15 @@ collections:
               - label: "TITLE"
                 name: "title"
                 widget: "string"
+                required: false
               - label: "SUB TITLE"
                 name: "subTitle"
                 widget: "string"
+                required: false
               - label: "CONTENT"
                 name: "txt"
                 widget: "markdown"
+                required: false
               - label: "COVER COLOR"
                 name: "coverColor"
                 widget: "select"
@@ -228,12 +253,15 @@ collections:
               - label: "TITLE"
                 name: "title"
                 widget: "string"
+                required: false
               - label: "SUB TITLE"
                 name: "subTitle"
                 widget: "string"
+                required: false
               - label: "body"
                 name: "body"
                 widget: "markdown"
+                required: false
               - label: "BLOCK COLOR"
                 name: "blockColor"
                 widget: "select"
