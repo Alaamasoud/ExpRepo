@@ -1,11 +1,24 @@
-banner:
-    coverTitle: ABOUT PAGE
-    coverSubTitle: sub Title
-    coverTxt: test
-    image: /assets/images/achtergrond-2.jpg
-
 sectioncentered:
-    title: ABOUT Section
-    subTitle: sub Title centered
-    txt: test
-    button1: Contact us
+  button1: Contact us
+  subTitle: sub Title centered
+  title: ABOUT Section
+  txt: test
+contentLeft:
+  coverColor: Dim
+  coverSize: large
+  image: /assets/images/cover3.jpg
+  subTitle: test
+  title: test
+  txt: |-
+    **Hola amigos**
+
+    * **1**
+    * **2**
+    * **3**
+    * **4**
+    * **5**
+splitRight:
+  bgColor: '2'
+  image: /assets/images/700.jpg
+  title: Title
+  txt: '## Content'
