@@ -1,6 +1,6 @@
 ---
 layout: post
-image: assets/images/block.jpg
+image: /assets/images/block.jpg
 title: "Where did the cookie come from?"
 category: Information
 ---

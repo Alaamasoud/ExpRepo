@@ -4,6 +4,9 @@ backend:
 
 media_folder: "assets/images"
 
+editor:
+ preview: false
+
 #logo_url: http://808studio.nl/assets/images/basic/sprite.svg
 #site_url: http://localhost:4000
 
@@ -28,6 +31,19 @@ collections:
           - label: "GOOGLE VERIFICATION CODE"
             name: "googleCode"
             widget: "string"
+          - label: "SOCIAL MEDIA CHANNELS"
+            name: "socialmedia"
+            widget: "object"
+            fields:
+              - label: "FACEBOOK"
+                name: "facebook"
+                widget: "string"
+              - label: "instagram"
+                name: "instagram"
+                widget: "string"
+              - label: "twitter"
+                name: "twitter"
+                widget: "string"
 
 #    HOMEPAGE
   - name: "pages"

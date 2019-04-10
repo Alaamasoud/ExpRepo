@@ -1,6 +1,6 @@
 ---
 layout: post
-image: assets/images/block.jpg
+image: /assets/images/block.jpg
 title: "what is soyr dough"
 category: Information
 ---
