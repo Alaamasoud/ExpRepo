@@ -1,6 +1,6 @@
 banner:
-  blockPosition: Left
-  coverColor: Light
+  blockPosition: Right
+  coverColor: Dark
   coverSize: large
   coverSubTitle: sub Title
   coverTitle: cover title
@@ -58,7 +58,7 @@ contentRight:
     consequat.
 iconBlocksSection:
   bgColor: '2'
-  columnsCount: two
+  columnsCount: three
   imagePosition: Left
   subTitle: sub Title
   title: Section Icons Blocks
@@ -76,12 +76,20 @@ contentLeft:
 posts:
   bgColor: '1'
   blockColor: '1'
+<<<<<<< HEAD
   columnsCount: three
   slider: false
   subTitle: sub Title
   title: POSTS BLOCKS
   txt:
+=======
+  body: >-
+>>>>>>> 0f7847f697f03192aa1f7b51f826e02c2374980a
     Lorem ipsum dolor sit amet, **consectetur** adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
     consequat.
+  columnsCount: three
+  slider: false
+  subTitle: sub Title
+  title: POSTS BLOCKS
