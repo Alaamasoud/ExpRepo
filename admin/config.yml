@@ -51,7 +51,7 @@ collections:
               - label: "COVER COLOR"
                 name: "coverColor"
                 widget: "select"
-                options: ["Light", "Dark"]
+                options: ["Light", "Dark", "Dim"]
               - label: "BLOCK POSITION"
                 name: "blockPosition"
                 widget: "select"
@@ -139,7 +139,7 @@ collections:
               - label: "COVER COLOR"
                 name: "coverColor"
                 widget: "select"
-                options: ["Light", "Dark"]
+                options: ["Light", "Dark", "Dim"]
               - label: "COVER SIZE"
                 name: "coverSize"
                 widget: "select"
@@ -208,7 +208,7 @@ collections:
               - label: "COVER COLOR"
                 name: "coverColor"
                 widget: "select"
-                options: ["Light", "Dark"]
+                options: ["Light", "Dark", "Dim"]
               - label: "COVER SIZE"
                 name: "coverSize"
                 widget: "select"
