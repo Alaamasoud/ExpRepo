@@ -247,6 +247,7 @@ collections:
                 widget: "boolean"
                 default: false
 
+#PAGE2
       - label: "ABOUT"
         name: "about"
         file: "_data/about.yml"
@@ -285,6 +286,27 @@ collections:
         widget: "string"
       - label: "ICON"
         name: "image_path"
+        widget: "image"
+      - label: "CONTENT"
+        name: "txt"
+        widget: "markdown"
+
+#   POSTS BLOCKS SECTION
+  - label: "Posts block section"
+    name: "posts"
+    folder: "_posts"
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    fields:
+      - label: "Layout"
+        name: "layout"
+        widget: "hidden"
+        default: "default"
+      - label: "TITLE"
+        name: "title"
+        widget: "string"
+      - label: "IMAGE"
+        name: "image"
         widget: "image"
       - label: "CONTENT"
         name: "txt"
