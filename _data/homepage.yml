@@ -35,6 +35,15 @@ splitLeft:
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
     consequat.
+
+
+
+
+    * bullet list 1
+
+    * bullet list 2
+
+    * bullet list 3
 contentRight:
   coverColor: Light
   coverSize: large
@@ -46,6 +55,14 @@ contentRight:
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
     consequat.
+
+
+    1. numberlist
+
+    2. numbershit
+
+
+    [This is link](www.google.com)
 8-4:
   bgColor: '2'
   image: /assets/images/700.jpg
@@ -76,12 +93,8 @@ contentLeft:
 posts:
   bgColor: '1'
   blockColor: '1'
+  body: '**Hola**'
   columnsCount: three
   slider: false
   subTitle: sub Title
   title: POSTS BLOCKS
-  txt:
-    Lorem ipsum dolor sit amet, **consectetur** adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat.
