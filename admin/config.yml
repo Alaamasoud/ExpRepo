@@ -325,6 +325,57 @@ collections:
               - label: "BUTTON"
                 name: "button1"
                 widget: "string"
+          - label: "SECTION CONTENT LEFT"
+            name: "contentLeft"
+            widget: "object"
+            fields:
+              - label: "TITLE"
+                name: "title"
+                widget: "string"
+                required: false
+              - label: "SUB TITLE"
+                name: "subTitle"
+                widget: "string"
+                required: false
+              - label: "CONTENT"
+                name: "txt"
+                widget: "markdown"
+                required: false
+              - label: "COVER COLOR"
+                name: "coverColor"
+                widget: "select"
+                options: ["Light", "Dark", "Dim"]
+              - label: "COVER SIZE"
+                name: "coverSize"
+                widget: "select"
+                options: ["small", "medium", "large"]
+              - label: "COVER IMAGE"
+                name: "image"
+                widget: "image"
+
+          - label: "SECTION IMAGE RIGHT"
+            name: "splitRight"
+            widget: "object"
+            fields:
+              - label: "BACKGROUND COLOR"
+                name: "bgColor"
+                widget: "select"
+                options: ["1", "2", "3"]
+              - label: "TITLE"
+                name: "title"
+                widget: "string"
+                required: false
+              - label: "SUB TITLE"
+                name: "subTitle"
+                widget: "string"
+                required: false
+              - label: "CONTENT"
+                name: "txt"
+                widget: "markdown"
+                required: false
+              - label: "IMAGE"
+                name: "image"
+                widget: "image"
 
 
 #   ICONS BLOCKS SECTION

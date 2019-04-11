@@ -5,7 +5,7 @@ Section Full Image - Content Right
 ////////////////////////////////
 -->
 
-<section class="sectionItem image{{site.data.[page.title].contentLeft.coverColor}} section-leftContent {{site.data.[page.title].contentLeft.coverSize}} column-auto withImage" data-section-title style="background-image: url({{site.data.[page.title].contentRight.image}})">
+<section class="sectionItem image{{site.data.[page.title].contentLeft.coverColor}} section-leftContent {{site.data.[page.title].contentLeft.coverSize}} column-auto withImage" data-section-title style="background-image: url({{site.data.[page.title].contentLeft.image}})">
     <div class="fallback">
         <picture>
             <img width="1000" height="500" src="{{site.data.[page.title].contentLeft.image}}">
@@ -20,9 +20,7 @@ Section Full Image - Content Right
                         <h2 class="headerSubTag">{{site.data.[page.title].contentLeft.subTitle}}</h2>
                     </div>
                     <div class="content">
-                        <p>
                             {{site.data.[page.title].contentLeft.txt | markdownify}}
-                        </p>
                     </div>
                 </div>
             </div>
