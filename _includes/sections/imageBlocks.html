@@ -1,0 +1,45 @@
+
+<!--
+////////////////////////////////
+Section Centered - Blocks
+////////////////////////////////
+-->
+
+<section class="sectionItem sectionColor{{site.data.[page.title].posts.bgColor}} section-blocks column-auto">
+    <div class="mainWidth">
+        <div class="paddingLeft clear">
+            <div class="grid_9 gridCenter">
+                <div class="block noMargin alignCenter">
+                    <div class="header">
+                        <h1 class="headerTag">{{site.data.[page.title].imageBlocks.title}}</h1>
+                        <h2 class="headerSubTag">{{site.data.[page.title].imageBlocks.subTitle}}</h2>
+                    </div>
+                    <div class="content">
+                            {{site.data.[page.title].imageBlocks.txt | markdownify}}
+                    </div>
+                </div>
+            </div>
+            <div class="selectorColor{{site.data.[page.title].imageBlocks.blockColor}} blocks {% if site.data.[page.title].imageBlocks.slider == true %}slider{% endif %} {{site.data.[page.title].imageBlocks.columnsCount}}-columns">
+                <ul class="blockEntry">
+                   {% for imageBlocks in site.imageBlocks %}
+                     <li class="item">
+                        <a href="{{ imageBlocks.url }}" class="imageBlock image hoverBlock cssSelectorColor marginBottom">
+                            <div class="media noPadding">
+                                <img src="{{ imageBlocks.image }}" alt="" width="500" height="">
+                            </div>
+                            <div class="inner">
+                                <div class="header">
+                                    <h1 class="blockTitle">{{ imageBlocks.title }}</h1>
+                                </div>
+                                <div class="content">
+                                    {{ imageBlocks.excerpt | truncate: 150}}
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

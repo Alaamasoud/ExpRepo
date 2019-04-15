@@ -419,3 +419,24 @@ collections:
       - label: "body"
         name: "body"
         widget: "markdown"
+
+#   IMAGE BLOCKS SECTION
+  - label: "Image block section"
+    name: "imageBlocks"
+    folder: "_imageBlocks"
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    fields:
+      - label: "Layout"
+        name: "layout"
+        widget: "hidden"
+        default: "imageblocklayout"
+      - label: "TITLE"
+        name: "title"
+        widget: "string"
+      - label: "IMAGE"
+        name: "image"
+        widget: "image"
+      - label: "body"
+        name: "body"
+        widget: "markdown"
