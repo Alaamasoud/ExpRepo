@@ -35,6 +35,8 @@ collections:
     output: true
     permalink: /:collection/:name
   imageBlocks:
+    folder: _imageBlocks
+    media_folder: "assets/images/imageBlocks"
     output: true
     permalink: /:collection/:name
 
