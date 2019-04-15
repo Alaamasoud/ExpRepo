@@ -304,6 +304,39 @@ collections:
                 widget: "boolean"
                 default: false
 
+          - label: "IMAGE BLOCKS"
+            name: "imageBlocks"
+            widget: "object"
+            fields:
+              - label: "BACKGROUND COLOR"
+                name: "bgColor"
+                widget: "select"
+                options: ["1", "2", "3"]
+              - label: "TITLE"
+                name: "title"
+                widget: "string"
+                required: false
+              - label: "SUB TITLE"
+                name: "subTitle"
+                widget: "string"
+                required: false
+              - label: "body"
+                name: "body"
+                widget: "markdown"
+                required: false
+              - label: "BLOCK COLOR"
+                name: "blockColor"
+                widget: "select"
+                options: ["White", "1", "2", "3"]
+              - label: "COLUMNS COUNT"
+                name: "columnsCount"
+                widget: "select"
+                options: ["two", "three", "four"]
+              - label: "ENABLE SLIDER"
+                name: "slider"
+                widget: "boolean"
+                default: false
+
 #PAGE2
       - label: "ABOUT"
         name: "about"
