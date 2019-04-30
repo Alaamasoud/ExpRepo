@@ -100,14 +100,10 @@ posts:
   title: POSTS BLOCKS
 imageBlocks:
   bgColor: '2'
-  blockColor: 'White'
+  blockColor: White
   body: '**Hola**'
   columnsCount: three
+  mainBanner: /assets/images/600x160.jpg
   slider: false
   subTitle: sub Title
   title: IMAGE BLOCKS
-  txt: >-
-    Lorem ipsum dolor sit amet, **consectetur** adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat.
