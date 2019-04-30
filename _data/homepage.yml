@@ -99,10 +99,14 @@ posts:
   subTitle: sub Title
   title: POSTS BLOCKS
 imageBlocks:
+  RightBannerDown: /assets/images/160x600.jpg
+  RightBannerUp: /assets/images/ads.jpeg
   bgColor: '2'
   blockColor: White
   body: '**Hola**'
   columnsCount: three
+  leftBannerDown: /assets/images/160x600.jpg
+  leftBannerUp: /assets/images/160x600.jpg
   mainBanner: /assets/images/600x160.jpg
   slider: false
   subTitle: sub Title
