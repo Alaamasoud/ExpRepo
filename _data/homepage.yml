@@ -5,7 +5,7 @@ banner:
   coverSubTitle: sub Title
   coverTitle: cover title
   coverTxt: This is test for lisa
-  image: /assets/images/achtergrond-2.jpg
+  image: /assets/images/amsterdam-canal-1920x1080.jpg
 sectioncentered:
   button1: Contact us
   subTitle: sub Title centered
@@ -99,15 +99,10 @@ posts:
   subTitle: sub Title
   title: POSTS BLOCKS
 imageBlocks:
-  RightBannerDown: /assets/images/160x600.jpg
-  RightBannerUp: /assets/images/ads.jpeg
   bgColor: '2'
   blockColor: White
   body: '**Hola**'
   columnsCount: three
-  leftBannerDown: /assets/images/160x600.jpg
-  leftBannerUp: /assets/images/160x600.jpg
-  mainBanner: /assets/images/600x160.jpg
   slider: false
   subTitle: sub Title
   title: IMAGE BLOCKS
